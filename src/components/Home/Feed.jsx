@@ -7,7 +7,7 @@ function Feed() {
   return (
     <div className="grid col-span-2 mt-3">
       <div className="">
-        <h1 className="font-bold">POSTS</h1>
+        <h1 className="font-bold ml-6 sm:ml-0">POSTS</h1>
         {feedData.map((data) => (
            <div className="mt-3 border border-gray-200 bg-white p-3 rounded-md" key={data.id}>
           <div className="flex space-x-1">
