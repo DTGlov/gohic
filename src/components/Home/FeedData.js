@@ -25,7 +25,7 @@ export const feedData = [
         Work: "Full-stack Developer",
         Joined:"Nov 2020",
         comments: 10,
-        tags: [{ id: 9, tech: "JavaScript" }, { id: 10, tech: "ReactJs" }, { id: 11, tech: "webdev" }, { id: 12, tech: "newbie" }]
+        tags: [{ id: 9, tech: "Golang" }, { id: 10, tech: "Backend" }, { id: 11, tech: "webdev" }, { id: 12, tech: "newbie" }]
     },
     {
         id: 2,
