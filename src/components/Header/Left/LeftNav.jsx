@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import {HOMEPAGE} from '../../../constants/routes'
 import { useMediaQuery } from 'react-responsive';
 import { slide as Menu } from "react-burger-menu";
 import {SCREENS} from '../../../helpers/responsive'
@@ -23,8 +25,11 @@ function LeftNav() {
       </div>
     ) : (
       <div className="flex items-center space-x-2 ml-4">
-        <div className="bg-black text-center rounded-md ml-8 py-2">
-          <h1 className="p-2 text-white text-xs">GOphic</h1>
+          <div className="bg-black text-center rounded-md ml-8 py-2">
+            <Link to={HOMEPAGE}>
+<h1 className="p-2 text-white text-xs">GOphic</h1>
+            </Link>
+          
         </div>
         <div className="border-2 border-gray-300 rounded-md p-2">
             <input type="text" className="outline-none" placeholder="Search..." />

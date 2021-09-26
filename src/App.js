@@ -5,6 +5,7 @@ import * as ROUTES from './constants/routes';
 import Test from './pages/Test';
 
 const HomePage=lazy(()=>import('./pages/Home'))
+const PostDetailPage=lazy(()=>import('./pages/PostDetail'))
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
           <Route exact path={ROUTES.HOMEPAGE}>
             <Header/>
             <HomePage />
+          </Route>
+          <Route path = {ROUTES.POSTDETAILPAGE}>
+            <Header />
+            <PostDetailPage/>
           </Route>
           <Route path="/test" component={ Test}/>
         </Switch>

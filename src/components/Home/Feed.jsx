@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { faCommentAlt, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { feedData } from "./FeedData";
@@ -20,10 +21,13 @@ function Feed() {
             </div>
           </div>
           <div className="ml-0 md:ml-10">
-            <div>
-              <h1 className="font-bold text-sm md:text-xl ml-3">
+              <div>
+                <Link to={`/post/${data.id}`}>
+ <h1 className="font-bold text-sm md:text-xl ml-3">
                {data.heading}
                 </h1>
+                </Link>
+               
                 <div className="flex space-x-2 ml-3">
                 {data.tags.map((tag) => (
                    <p className="text-xs text-gray-600 mt-3" key={tag.id}>
