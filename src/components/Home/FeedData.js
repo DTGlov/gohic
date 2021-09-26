@@ -110,7 +110,7 @@ export const feedData = [
     heading:"BINARY SEARCH",
     reactions:100,
         read: 7,
-        image:"https://res.cloudinary.com/practicaldev/image/fetch/s--AZca7sF6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/2tlp524rtscb5woq0v1f.png",
+        image:"https://res.cloudinary.com/practicaldev/image/fetch/s--dMSu-hlY--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/art8pqjemlbgjj4w96di.jpg",
         bio:"Author at CSS-Tricks. A Front-end Enthusiast, a programmer, a problem solver and a human being who tries to keep a good relationship with bugs! ",
     color:"bg-red-500",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit.\nIure eligendi harum ea, amet quod labore sunt dolor vero sapiente.\nEos quae facere alias voluptatibus labore provident non quasi laudantium, velit sunt facilis odit enim maxime atque.\nRem repellat veritatis, tenetur voluptatem quod alias magni maiores quibusdam laboriosam perspiciatis doloremque eos!",
