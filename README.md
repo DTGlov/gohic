@@ -8,5 +8,5 @@ commits will however be made daily ......
 ![Alt Text](https://github.com/DTGlov/gophic/blob/main/src/assets/gophic.png)
 
 ## Post Detail Page
-![Alt Text](https://github.com/DTGlov/gophic/blob/main/src/assets/details.png)
+![Alt Text](https://github.com/DTGlov/gophic/blob/main/src/assets/detailss.png)
 
